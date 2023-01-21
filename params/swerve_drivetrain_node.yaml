@@ -36,7 +36,7 @@ drive_velocity_kD: 0.43
 drive_velocity_kF: 0.0469
 drive_velocity_iZone: 0.0
 drive_velocity_maxIAccum: 0.0
-drive_closed_loop_ramp : 0.5
+drive_closed_loop_ramp : 1.0
 drive_motion_cruise_velocity: 0.0
 drive_motion_accel: 0.0
 drive_motion_s_curve_strength: 0
