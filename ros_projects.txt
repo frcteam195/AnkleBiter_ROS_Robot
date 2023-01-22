@@ -13,7 +13,7 @@ git@github.com:frcteam195/2023_dashboard_interface_node.git
 git@github.com:frcteam195/ck_ros_msgs_2023_node.git
 git@github.com:frcteam195/ck_ros_base_msgs_node.git
 git@github.com:frcteam195/limelight_vision_2023_node.git
-git@github.com:frcteam195/2023_trajectories.git
+git@github.com:frcteam195/trajectories_2023.git
 git@github.com:frcteam195/led_control_node.git
 git@github.com:frcteam195/2023_autonomous_node.git
 git@github.com:frcteam195/trajectory_generator_node.git
