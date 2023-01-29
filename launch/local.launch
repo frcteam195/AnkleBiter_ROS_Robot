@@ -36,15 +36,10 @@
     <rosparam param="default_trig_val">true</rosparam>
   </node>
 
-  <!-- <node name="trajectory_generator_node" pkg="trajectory_generator_node" type="trajectory_generator_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/trajectory_generator_params.yaml" />
-  </node>
-
-
-  <node name="trajectory_follower_node" pkg="trajectory_follower_node" type="trajectory_follower_node" clear_params="true" output="screen" respawn="true">
+  <!-- <node name="trajectory_follower_node" pkg="trajectory_follower_node" type="trajectory_follower_node" clear_params="true" output="screen" respawn="true">
   </node> -->
-  <node name="action_runner_py_node" pkg="action_runner_py_node" type="action_runner_py_node" clear_params="true" output="screen" respawn="true">
-  </node>
+  <!-- <node name="action_runner_py_node" pkg="action_runner_py_node" type="action_runner_py_node" clear_params="true" output="screen" respawn="true">
+  </node> -->
 
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/AnkleBiter_ROS_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
@@ -56,12 +51,6 @@
   <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
   </node>
 
-  <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
-  </node>
-
-  <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
-  </node>
-
-  <node name="arm_node" pkg="arm_node" type="arm_node" clear_params="true" output="screen" respawn="true">
-  </node>
+  <!-- <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
+  </node> -->
 </launch>
