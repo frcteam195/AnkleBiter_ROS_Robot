@@ -17,4 +17,4 @@ git@github.com:frcteam195/trajectories_2023.git
 git@github.com:frcteam195/led_control_node.git
 git@github.com:frcteam195/autonomous_2023_node.git
 git@github.com:frcteam195/actions_2023_node.git
-git@github.com:frcteam195/trajectory_generator_node.git
+git@github.com:frcteam195/swerve_trajectory_node.git
