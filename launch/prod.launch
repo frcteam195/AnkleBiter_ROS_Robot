@@ -42,7 +42,7 @@
   </node>
 
   <node name="swerve_trajectory_node" pkg="swerve_trajectory_node" type="swerve_trajectory_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/AnkleBiter_ROS_Robot/params/trajectory_generator_params.yaml" />
+    <rosparam command="load" file="/mnt/working/AnkleBiter_ROS_Robot/params/swerve_trajectory_params.yaml" />
   </node>
 
   <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
